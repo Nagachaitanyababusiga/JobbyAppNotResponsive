@@ -1,0 +1,85 @@
+.login-background {
+  background-color: #000000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-card {
+  width: 400px;
+  height: 400px;
+  background-color: #272727;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.login-inputer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 80%;
+}
+.login-label {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.login-input {
+  background-color: transparent;
+  width: 90%;
+  margin-bottom: 20px;
+  border: 2px solid #ffffff;
+  height: 35px;
+  outline: none;
+  padding: 5px;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.login-buttoner {
+  width: 90%;
+  height: 30px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-weight: bold;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.login-err-msg {
+  color: #ff0b37;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .login-card {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .login-input {
+    height: 40px;
+  }
+
+  .login-buttoner {
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .login-card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .login-input {
+    height: 45px;
+  }
+
+  .login-buttoner {
+    height: 40px;
+  }
+}

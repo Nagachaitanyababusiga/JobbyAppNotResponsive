@@ -1,0 +1,191 @@
+.jobitemcard {
+  background-color: #2c364c;
+  width: 100%;
+  min-height: 400px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.jobitemlogo {
+  width: 75px;
+  height: 75px;
+}
+
+.jobitemiconcont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.jobitemtitlecont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 5px;
+}
+
+.jobitemtitleheader {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.jobitemratingcont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.jobitemtitlestaricon {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+.jobitemtitlestariconlable {
+  font-size: 20px;
+}
+
+.jobitemlpacont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.jobitemlinedivider {
+  width: 100%;
+  border-width: 2px;
+  border-color: #64748b;
+  margin: 2%;
+}
+
+.jobitemlpaiconscont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.jobitemlpaiconcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 8px;
+}
+
+.jobitemlpaicon {
+  margin: 5px;
+}
+
+.custom-link {
+  color: inherit;
+  text-decoration: none;
+  padding: 0px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .jobitemtitleheader {
+    font-size: 18px;
+  }
+
+  .jobitemtitlestariconlable {
+    font-size: 18px;
+  }
+
+  .jobitemlpacont {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+  .jobitemtitleheader {
+    font-size: 16px;
+  }
+
+  .jobitemtitlestaricon {
+    font-size: 20px;
+  }
+
+  .jobitemlpacont {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .jobitemiconcont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jobitemlogo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .jobitemtitlecont {
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .jobitemtitleheader {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .jobitemratingcont {
+    justify-content: center;
+  }
+
+  .jobitemtitlestariconlable {
+    font-size: 16px;
+  }
+
+  .jobitemlpacont {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .jobitemlpaiconcontent {
+    justify-content: center;
+  }
+
+  .jobitemlinedivider {
+    margin: 5%;
+  }
+}
+
+@media (max-width: 576px) {
+  .jobitemcard {
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .jobitemlogo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .jobitemtitleheader {
+    font-size: 18px;
+  }
+
+  .jobitemtitlestaricon {
+    font-size: 18px;
+  }
+
+  .jobitemtitlestariconlable {
+    font-size: 14px;
+  }
+
+  .jobitemlpaiconcontent {
+    margin: 5px;
+  }
+}
+

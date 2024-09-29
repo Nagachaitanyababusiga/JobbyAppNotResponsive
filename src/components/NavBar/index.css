@@ -1,0 +1,95 @@
+.NavCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  background-color: #202020;
+}
+a {
+  text-decoration: none;
+}
+.linkscont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+}
+.logout-button {
+  background-color: #4f46e5;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.logoclass {
+  width: 170px;
+  height: 50px;
+  margin: 10px;
+}
+.eachlink {
+  margin-left: 10px;
+}
+.linkpara {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .NavCont {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .linkscont {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .logout-button {
+    width: 100px;
+    height: 35px;
+  }
+
+  .logoclass {
+    width: 150px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .NavCont {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .linkscont {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .eachlink {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .logout-button {
+    width: 100%;
+    height: 40px;
+  }
+
+  .logoclass {
+    width: 120px;
+    height: 35px;
+  }
+}

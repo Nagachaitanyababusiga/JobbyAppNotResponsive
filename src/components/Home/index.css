@@ -1,0 +1,113 @@
+.homecont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  padding: 10px;
+}
+
+.hometextcont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #ffffff;
+  margin: 20px;
+  margin-left: 40px;
+}
+
+.homeheader {
+  font-size: 55px;
+  width: 400px;
+}
+
+.homepara {
+  font-size: 18px;
+  width: 680px;
+}
+
+.findjobsbtn {
+  background-color: #4f46e5;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  width: 90px;
+  height: 35px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  .homeheader {
+    font-size: 45px;
+    width: 350px;
+  }
+
+  .homepara {
+    font-size: 16px;
+    width: 600px;
+  }
+}
+
+@media (max-width: 992px) {
+  .homeheader {
+    font-size: 40px;
+    width: 300px;
+  }
+
+  .homepara {
+    font-size: 15px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  .homecont {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .homeheader {
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .homepara {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .findjobsbtn {
+    width: 100%;
+    max-width: 150px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .homeheader {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .homepara {
+    font-size: 12px;
+    width: 100%;
+  }
+
+  .findjobsbtn {
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,219 @@
+.downCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #000000;
+  color: #ffffff;
+}
+.innerdownCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90vw;
+  min-height: 100vh;
+}
+.searchboxcont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-tracks: center;
+  height: 34px;
+  width: 300px;
+  border: #ffffff 1px solid;
+  border-radius: 6px;
+}
+.inputersearch {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  color: #ffffff;
+  width: 80%;
+  padding-left: 2px;
+}
+.searchicon {
+  color: #ffffff;
+  font-size: 15px;
+}
+.iconbutton {
+  background-color: #272727;
+  outline: none;
+  border-width: 0px;
+  border-radius: 6px;
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.jobs2ndcont {
+  width: 60%;
+  margin: 5%;
+}
+.jobs1stcont {
+  width: 30%;
+  margin: 5%;
+}
+.profileRetry {
+  background-color: #4f46e5;
+  border-radius: 7px;
+  width: 120px;
+  height: 35px;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+}
+.profileDiv {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profileCard {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+.profilename {
+  color: #6366f1;
+  font-weight: bold;
+}
+.profilepara {
+  color: #2c364c;
+}
+.linedivider {
+  width: 80%;
+  border-width: 2px;
+  border-color: #64748b;
+  margin: 2%;
+}
+.checkerboxhead {
+  font-size: 18px;
+}
+.checkerbox {
+  margin-right: 20px;
+}
+.checkerboxcont {
+  margin: 7px;
+}
+.listcont {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.pageNotfoundjobs {
+  height: 300px;
+  width: 350px;
+}
+.jobsNotfoundjobs {
+  height: 300px;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.loader-cont {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 1200px) {
+  .jobs2ndcont {
+    width: 65%;
+  }
+
+  .jobs1stcont {
+    width: 30%;
+  }
+
+  .profileCard,
+  .profileDiv {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .innerdownCont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jobs1stcont,
+  .jobs2ndcont {
+    width: 80%;
+    margin: 20px 0;
+  }
+
+  .profileCard {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .jobs2ndcont {
+    width: 90%;
+  }
+
+  .jobs1stcont {
+    width: 90%;
+  }
+
+  .profileCard,
+  .profileDiv {
+    width: 100%;
+    height: auto;
+  }
+
+  .linedivider {
+    width: 90%;
+  }
+
+  .searchboxcont {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .iconbutton {
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .searchboxcont {
+    width: 100%;
+  }
+
+  .inputersearch {
+    width: 70%;
+  }
+
+  .iconbutton {
+    width: 25%;
+  }
+
+  .profileCard,
+  .profileDiv {
+    width: 100%;
+    height: auto;
+  }
+}
