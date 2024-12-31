@@ -1,6 +1,8 @@
 In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
 
 ### Find my deployment by click here -> [click me!](https://sigajobbyapp.ccbp.tech)
+### (username: rahul, password: rahul@2021)
+### (username: praneetha, password: praneetha@2021)
 
 ### Refer to videos below:
 
